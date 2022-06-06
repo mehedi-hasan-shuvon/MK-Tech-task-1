@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Work+Sans&display=swap');
+
+:root {
+    --main-link-color: #FF6F00;
+    --main-secondary-color: #644F9C;
+    --main-bg-color: #F2F2F2;
+    --main-font-color: #404040;
+}
+
+.section2-svg-img {
+    width: 30%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 50%;
+    padding: 45px;
+    background: white;
+    color: darkblue;
+}
+
+.section-2-buttton {
+    background: var(--main-secondary-color);
+    border: none;
+    border-radius: 20px;
+}
+
+.section-2 {
+    width: 80%;
+    margin: auto;
+}
+
+
+@media only screen and (max-width:688px) {
+    body {
+        width: 100%;
+    }
+
+    html,
+    body {
+        overflow-x: hidden;
+    }
+
+    .section-2 {
+        width: 100%;
+        margin: auto;
+    }
+}
