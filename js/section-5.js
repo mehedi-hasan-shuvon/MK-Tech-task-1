@@ -34,7 +34,7 @@ const leftbtn = () => {
 };
 
 setInterval(() => {
-    console.log(imgIndex);
+    // console.log(imgIndex);
     const imgUrl = images[imgIndex];
     imgElement.setAttribute('src', imgUrl);
     titleElement.innerText = Title[imgIndex];
