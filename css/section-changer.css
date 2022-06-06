@@ -1,0 +1,21 @@
+.section-changer {
+    display: grid;
+    grid-template-columns: 4fr 3fr 4fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    justify-items: stretch;
+    align-items: stretch;
+}
+
+.section-changer-text {
+    display: flex;
+    justify-content: center;
+    /* border-top: 1px dashed red; */
+}
+
+.hr-class {
+    border: 2px dotted black;
+    border-style: none none dotted;
+    color: #fff;
+    background-color: #fff;
+}

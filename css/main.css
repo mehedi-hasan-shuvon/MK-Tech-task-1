@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Work+Sans&display=swap');
+
+:root {
+    --main-link-color: #FF6F00;
+    --main-secondary-color: #644F9C;
+    --main-bg-color: #F2F2F2;
+    --main-font-color: #404040;
+}
+
+* {
+    background-color: var(--main-bg-color);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body-class {
+    background-color: var(--main-bg-color);
+}
+
+.test {
+    color: var(--main-link-color);
+    font-family: 'PT Sans', sans-serif;
+}
+
+.test2 {
+    color: var(--main-font-color);
+}
+
+.navbar {
+    padding: 0px !important;
+}
+
+
+@media only screen and (max-width:688px){
+    body{
+        width: 100%;
+    }
+    html,body{
+    overflow-x: hidden;
+  }
+}
