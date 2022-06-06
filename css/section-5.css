@@ -1,0 +1,16 @@
+.section-5-box {
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 60px;
+}
+
+.section-5-btn {
+    display: flex;
+
+    justify-content: center;
+}
+
+.section-5-direction {
+    padding: 10px;
+    border-radius: 30px;
+}
