@@ -1,0 +1,72 @@
+:root {
+    --main-link-color: #FF6F00;
+    --main-secondary-color: #644F9C;
+    --main-bg-color: #F2F2F2;
+    --main-font-color: #404040;
+}
+
+.section-3-all-button {
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+    grid-column-gap: 50px;
+    grid-row-gap: 20px;
+    justify-items: stretch;
+    align-items: stretch;
+}
+
+.section-3 {
+    width: 80%;
+    margin: auto;
+}
+
+.section-3-buttton {
+    background: gray;
+    border: none;
+    border-radius: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+
+.section-3-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-3-title {
+    color: var(--main-link-color);
+}
+
+.first-btn {
+    background: var(--main-link-color);
+    color: white;
+}
+
+
+@media only screen and (max-width:688px) {
+    body {
+        width: 100%;
+    }
+
+    html,
+    body {
+        overflow-x: hidden;
+    }
+
+
+    .section-3 {
+        margin: 1px !important;
+    }
+
+
+    .section-3-all-button {
+        grid-column-gap: 19px;
+    }
+
+    .section-3-desc {
+        margin: auto;
+        padding-left: 17% !important;
+    }
+
+
+}
